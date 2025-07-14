@@ -1,36 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Core EF Package -->
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
-    
-    <!-- Database Provider (choose one based on your database) -->
-    <!-- For SQL Server -->
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
-    
-    <!-- For SQLite -->
-    <!-- <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" /> -->
-    
-    <!-- For PostgreSQL -->
-    <!-- <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" /> -->
-    
-    <!-- For Cosmos DB -->
-    <!-- <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="8.0.0" /> -->
-    
-    <!-- For In-Memory (testing) -->
-    <!-- <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" /> -->
-    
-    <!-- Tools for EF Core migrations -->
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.7" />
+    <PackageReference Include="Neolution.Abstractions" Version="2022.2.171322" />
+    <PackageReference Include="Neolution.CodeAnalysis" Version="3.1.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
   </ItemGroup>
 
 </Project>
