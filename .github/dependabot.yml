@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    ignore:
+      - dependency-name: "Microsoft.EntityFrameworkCore"
+        update-types: ["version-update:semver-major"]  # Correct syntax
+    groups:
+      nuget-ecosystem:
+        patterns: ["*"]
