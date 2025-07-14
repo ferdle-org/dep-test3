@@ -8,11 +8,11 @@
 
   <ItemGroup>
     <!-- Core EF Package -->
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.7" />
     
     <!-- Database Provider (choose one based on your database) -->
     <!-- For SQL Server -->
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.7" />
     
     <!-- For SQLite -->
     <!-- <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" /> -->
@@ -27,7 +27,7 @@
     <!-- <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" /> -->
     
     <!-- Tools for EF Core migrations -->
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.7">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
